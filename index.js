@@ -71,4 +71,20 @@ console.log(nameFull({info: null})); // "user"
 console.log(nameFull({})); // "user"
 
 
+function left_digit(strParam) {
+  // write your code here
+  let num = parseInt(strParam.split(' ')[3]);
+  return num;
+
+}
+console.log(left_digit("Welcome2back"));
+
+
+function concat_names(name1, name2) {
+  // write your code here
+  return name2 + "," + name1;
+}
+console.log(concat_names("jjj", "hlh"))
+
+
 
